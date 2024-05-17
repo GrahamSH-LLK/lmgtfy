@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+  width: 100%;
+  cursor: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.cursor {
+  position: absolute;
+  height: 1.5rem;
+  width: 1.05rem;
+}
+
+.container {
+  height: 41px;
+  border-radius: 24px;
+  border: solid 1px rgb(223, 225, 229);
+  display: flex;
+  width: 582px;
+}
+
+input {
+  height: 100%;
+  border: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: transparent;
+  width: 100%;
+}
+
+.search {
+  padding: 5px;
+  height: 100%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding-left: 10px;
+  border-radius: 24px  0px 0px 24px;
+
+}
+
+.search svg {
+  height: 20px;
+  aspect-ratio: 1;
+  color: rgb(154, 160, 166);
+}
+
+.searchcont {}
