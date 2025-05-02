@@ -10,6 +10,8 @@ body {
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  padding: 25px;
+
 }
 
 .cursor {
@@ -23,7 +25,8 @@ body {
   border-radius: 24px;
   border: solid 1px rgb(223, 225, 229);
   display: flex;
-  width: 582px;
+  width: 100%;
+  max-width: 582px;
 }
 
 input {
@@ -53,4 +56,11 @@ input {
   color: rgb(154, 160, 166);
 }
 
-.searchcont {}
+.searchcont {
+  display: contents;
+}
+
+img.logo {
+  max-width: 40vw;
+  height: auto;
+}
